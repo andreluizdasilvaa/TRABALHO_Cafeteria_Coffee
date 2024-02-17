@@ -1,0 +1,98 @@
+@font-face {
+    font-family: lovelo;
+    src: url(../fonts/Lovelo\ Black.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans';
+}
+/*-=-=-=-=-=-=-=-*/
+/*   Cabeçalho   */
+/*-=-=-=-=-=-=-=-*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 66px;
+    background-color: #F1F1F1;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    font-size: 1.3em;
+    margin: 0px 20px 0px 20px;
+}
+
+header ul li a{
+    color: black;
+}
+
+header img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+button.botton_azul{
+    padding: 8px;
+    border: none;
+    color: white;
+    background-color: #007DFE;
+    width: 93px;
+    height: 43px;
+    border-radius: 30px;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-family: 'Open Sans';
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     Corpo     */
+/*-=-=-=-=-=-=-=-*/
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+div.copy{
+    font-size: 1.5em;
+}
+
+div.copy h1 > span{
+    color: #007DFE;
+}
+
+div.copy h1,span,p{
+    font-family: lovelo;
+}
+
+div.copy h1,p{
+    margin: 20px 0px 20px
+}
+
+div.copy button.botton_azul.Catalogo{
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 1.4em;
+}
+
+
+/*-=-=-=-=-=-=-=-=-*/
+/*     rodapé      */
+/*-=-=-=-=-=-=-=-=-*/
+
+footer p{
+    display: flex;
+    margin: 0;
+}
